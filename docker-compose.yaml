@@ -1,0 +1,21 @@
+services:
+  backend:
+    build: ./server
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./server/.env
+    environment:
+      NODE_ENV: production
+      CORS_ORIGIN: http://localhost
+
+  frontend:
+    build:
+      context: ./client
+      args:
+        VITE_API_URL: http://localhost:5000/api/v1
+        VITE_SOCKET_URL: http://localhost:5000/room
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
