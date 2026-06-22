@@ -4,7 +4,7 @@ import { useResume } from "../../hooks/useResume.jsx";
 import { useJob } from "../../hooks/useJobPosting.jsx";
 import Navbar from "../../components/navbar.jsx";
 import ATSSideBySide from "./atsSideBySide.jsx";
-import MatchScoreCard from "./matchScoreCard.jsx";
+import MatchScoreCard from "./matchScorecard.jsx";
 import Spinner from "../../components/spinner.jsx";
 import { baseURL } from "../../api/axiosInstance.jsx";
 import InlineOutreachCard from "./inlineOutreachCard.jsx";

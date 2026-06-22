@@ -4,7 +4,7 @@ import {
   getJobPosting,
   deleteJobPosting,
   allJobsWithSameResume,
-} from "../controllers/jobPosting.controller.js";
+} from "../controllers/jobposting.controller.js";
 import verifyJWT from "../middlewares/auth.middleware.js";
 
 const jobPostingRouter = Router();

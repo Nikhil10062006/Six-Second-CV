@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useOutReach } from "../../hooks/useOutReach.jsx";
 import { useAuth } from "../../hooks/useAuth.jsx";
 import Navbar from "../../components/navbar.jsx";
-import DraftCard from "./DraftCard.jsx";
+import DraftCard from "./draftCard.jsx";
 import Spinner from "../../components/spinner.jsx";
 
 export default function DraftsPage() {

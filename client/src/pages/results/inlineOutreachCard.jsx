@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useOutReach } from "../../hooks/useOutReach.jsx";
 import { useAuth } from "../../hooks/useAuth.jsx";
-import VariantsList from "../ColdReach/variantList.jsx";
+import VariantsList from "../coldreach/variantList.jsx";
 import Spinner from "../../components/spinner.jsx";
 
 export default function InlineOutreachCard({

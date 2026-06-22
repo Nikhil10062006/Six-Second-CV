@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import ResumeUploader from "./ResumeUploader";
-import JDInput from "./JDInput";
+import ResumeUploader from "./resumeUploader.jsx";
+import JDInput from "./jdInput.jsx";
 import Navbar from "../../components/navbar.jsx";
 import { getAllResumes } from "../../api/resumeAPI.jsx";
 import ResumeThumbnail from "../../components/resumeThumbnail.jsx";

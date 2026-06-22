@@ -6,7 +6,7 @@ import Register from "../pages/auth/register.jsx";
 import UploadPage from "../pages/upload/uploadPage.jsx";
 import ProtectedRoute from "./protectedRoutes.jsx";
 import ResultsPage from "../pages/results/resultsPage.jsx";
-import HeatmapPage from "../pages/results/heatmapPage.jsx";
+import HeatmapPage from "../pages/results/heatMapPage.jsx";
 import ColdReachPage from "../pages/coldreach/coldReachPage.jsx";
 import DraftDetail from "../pages/drafts/draftDetail.jsx";
 import DraftsPage from "../pages/drafts/draftsPage.jsx";

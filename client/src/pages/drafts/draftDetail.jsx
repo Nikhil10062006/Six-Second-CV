@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useOutReach } from "../../hooks/useOutReach.jsx";
 import { useAuth } from "../../hooks/useAuth.jsx";
 import Navbar from "../../components/navbar.jsx";
-import VariantsList from "../ColdReach/variantList.jsx";
+import VariantsList from "../coldreach/variantList.jsx";
 import Spinner from "../../components/spinner.jsx";
 
 export default function DraftDetail() {
